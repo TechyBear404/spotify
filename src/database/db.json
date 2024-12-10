@@ -1,0 +1,90 @@
+[
+  {
+    "title": "Chanson 1",
+    "cover": "/images/php_magic.jpg",
+    "artist": "artist 1",
+    "album": "Album 1",
+    "year": 2020,
+    "src": "/musics/php.mp3"
+  },
+  {
+    "title": "Chanson 2",
+    "cover": "/images/cover.jpg",
+    "artist": "artist 1",
+    "album": "Album 1",
+    "year": 2020,
+    "src": "/musics/php c'est magique.mp3"
+  },
+  {
+    "title": "Chanson 3",
+    "cover": "/images/cover.jpg",
+    "artist": "artist 1",
+    "album": "Album 1",
+    "year": 2020,
+    "src": "/musics/php c'est magique.mp3"
+  },
+  {
+    "title": "Chanson 4",
+    "cover": "/images/cover.jpg",
+    "artist": "artist 1",
+    "album": "Album 1",
+    "year": 2020,
+    "src": "/musics/php c'est magique.mp3"
+  },
+  {
+    "title": "Chanson A",
+    "cover": "/images/cover.jpg",
+    "artist": "artist 2",
+    "album": "Album A",
+    "year": 2019,
+    "src": "/musics/php c'est magique.mp3"
+  },
+  {
+    "title": "Chanson B",
+    "cover": "/images/cover.jpg",
+    "artist": "artist 2",
+    "album": "Album A",
+    "year": 2019,
+    "src": "/musics/php c'est magique.mp3"
+  },
+  {
+    "title": "Chanson C",
+    "cover": "/images/cover.jpg",
+    "artist": "artist 2",
+    "album": "Album A",
+    "year": 2019,
+    "src": "/musics/php c'est magique.mp3"
+  },
+  {
+    "title": "Chanson D",
+    "cover": "/images/cover.jpg",
+    "artist": "artist 2",
+    "album": "Album A",
+    "year": 2019,
+    "src": "/musics/php c'est magique.mp3"
+  },
+  {
+    "title": "Chanson X",
+    "cover": "/images/cover.jpg",
+    "artist": "artist 3",
+    "album": "Album X",
+    "year": 2018,
+    "src": "/musics/php c'est magique.mp3"
+  },
+  {
+    "title": "Chanson Y",
+    "cover": "/images/cover.jpg",
+    "artist": "artist 3",
+    "album": "Album X",
+    "year": 2018,
+    "src": "/musics/php c'est magique.mp3"
+  },
+  {
+    "title": "Chanson Z",
+    "cover": "/images/cover.jpg",
+    "artist": "artist 3",
+    "album": "Album X",
+    "year": 2018,
+    "src": "/musics/php c'est magique.mp3"
+  }
+]
