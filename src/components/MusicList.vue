@@ -1,8 +1,10 @@
 <template>
-  <div class="grid grid-cols-6 gap-6 p-6">
+  <div
+    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4 sm:gap-5 lg:gap-6 p-3 sm:p-4 lg:p-6"
+  >
     <div
       v-for="music in musics"
-      class="relative p-4 transition-all duration-500 border shadow-xl music-card rounded-xl backdrop-blur-md bg-gradient-to-br from-red-800/40 to-red-900/40 border-red-500/20 card-group hover:bg-gradient-to-br hover:from-red-700/50 hover:to-red-800/50 hover:shadow-2xl hover:shadow-red-950/50 hover:-translate-y-1 hover:border-red-400/30"
+      class="relative p-3 sm:p-4 transition-all duration-500 border shadow-xl music-card rounded-xl backdrop-blur-md bg-gradient-to-br from-red-800/40 to-red-900/40 border-red-500/20 card-group hover:bg-gradient-to-br hover:from-red-700/50 hover:to-red-800/50 hover:shadow-2xl hover:shadow-red-950/50 hover:-translate-y-1 hover:border-red-400/30"
       @click="viewDetails(music)"
     >
       <div class="relative overflow-hidden rounded-lg shadow-md">
@@ -25,13 +27,13 @@
           </button>
         </div>
       </div>
-      <div class="relative z-10 mt-4">
+      <div class="relative z-10 mt-3 sm:mt-4">
         <h3
-          class="mb-2 text-lg font-bold tracking-tight transition-colors duration-300 text-red-50 drop-shadow-md card-group-hover:text-red-100"
+          class="mb-1.5 sm:mb-2 text-base sm:text-lg font-bold tracking-tight transition-colors duration-300 text-red-50 drop-shadow-md card-group-hover:text-red-100"
         >
           {{ music.title }}
         </h3>
-        <div class="flex items-center gap-2 mb-1">
+        <div class="flex items-center gap-1.5 sm:gap-2 mb-1">
           <font-awesome-icon
             icon="fa-solid fa-user"
             class="w-4 text-red-200 drop-shadow"
@@ -40,14 +42,14 @@
             {{ music.artist }}
           </p>
         </div>
-        <div class="flex items-center gap-2 mb-1">
+        <div class="flex items-center gap-1.5 sm:gap-2 mb-1">
           <font-awesome-icon
             icon="fa-solid fa-compact-disc"
             class="w-4 text-red-300 drop-shadow"
           />
           <p class="text-sm text-red-300 drop-shadow">{{ music.album }}</p>
         </div>
-        <div class="flex items-center gap-2">
+        <div class="flex items-center gap-1.5 sm:gap-2">
           <font-awesome-icon
             icon="fa-solid fa-calendar"
             class="w-4 text-red-400 drop-shadow"

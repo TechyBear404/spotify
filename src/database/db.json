@@ -1,19 +1,19 @@
 [
   {
-    "title": "Chanson 1",
+    "title": "PHP c'est magique",
     "cover": "/images/php_magic.jpg",
-    "artist": "artist 1",
+    "artist": "TiSeb",
     "album": "Album 1",
-    "year": 2020,
+    "year": 2024,
     "src": "/musics/php.mp3"
   },
   {
-    "title": "Chanson 2",
+    "title": "Au début, tout est flou, rien ne compile",
     "cover": "/images/cover.jpg",
-    "artist": "artist 1",
+    "artist": "TiSeb",
     "album": "Album 1",
-    "year": 2020,
-    "src": "/musics/php c'est magique.mp3"
+    "year": 2024,
+    "src": "/musics/Au_debut_tout_est_flou_rien_ne_compile.mp3"
   },
   {
     "title": "Chanson 3",
