@@ -1,9 +1,5 @@
 <template>
-  <main class="relative min-h-screen bg-red-950 page-transition">
-    <div
-      class="absolute inset-0 bg-gradient-to-br from-red-950/90 via-red-900/80 to-red-950/90"
-    ></div>
-    <div class="absolute inset-0 opacity-5"></div>
+  <main class="relative min-h-screen page-transition">
     <div class="relative p-8 max-w-[1400px] mx-auto">
       <MusicList />
     </div>
@@ -17,5 +13,9 @@ import MusicList from "@/components/MusicList.vue";
 <style scoped>
 .page-transition {
   transform-origin: top;
+}
+
+.bg-image {
+  background-image: url("@/assets/bg-red.svg");
 }
 </style>

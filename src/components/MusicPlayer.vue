@@ -1,6 +1,6 @@
 <template>
   <div
-    class="fixed bottom-0 left-0 w-full p-4 text-red-100 border-t border-red-900 music-player bg-red-950/80 backdrop-blur-lg"
+    class="fixed bottom-0 left-0 w-full p-4 text-red-100 border-t border-red-900 music-player bg-red-950/70 backdrop-blur-lg"
   >
     <div class="mx-auto max-w-7xl">
       <div class="flex justify-between">
